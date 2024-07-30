@@ -2550,6 +2550,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
           "name": "Purple Button With Stone Frame_Pressed.png"
         }
+      },
+      {
+        "file": "assets/song18.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\song18.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2581,7 +2591,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748889,
+        "zoomFactor": 0.5117784035210176,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10581,6 +10591,18 @@
               },
               "parameters": [
                 "WallMenu"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\song18.mp3",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
