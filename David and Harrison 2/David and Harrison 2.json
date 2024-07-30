@@ -2406,14 +2406,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 99,
+          "height": 100,
           "keepRatio": true,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "0be121cf-f4ab-44b7-a223-9f83ee87da36",
-          "width": 1680,
-          "x": -58,
-          "y": 592,
+          "width": 1690,
+          "x": 1,
+          "y": 612,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2902,6 +2902,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -2914,9 +2916,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -7710,10 +7710,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
