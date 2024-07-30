@@ -2560,6 +2560,42 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "sssss.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sssss.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0004.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprite-0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprite-0005.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/coin pile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\coin pile.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2689,8 +2725,8 @@
           "name": "Platform2",
           "persistentUuid": "0b5388cb-4eac-477a-9fe2-26a8c2102074",
           "width": 0,
-          "x": 335,
-          "y": 648,
+          "x": 340,
+          "y": 646,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2739,8 +2775,8 @@
           "name": "GreenHero",
           "persistentUuid": "609f700d-4699-4b1b-840b-503185cef74f",
           "width": 284,
-          "x": 423,
-          "y": 350,
+          "x": 401,
+          "y": 356,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2756,8 +2792,8 @@
           "name": "RedHero",
           "persistentUuid": "4e33cdbd-46c6-4efd-8dfb-61062dcfaed2",
           "width": 145,
-          "x": 678,
-          "y": 485,
+          "x": 687,
+          "y": 433,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -2858,8 +2894,8 @@
           "name": "MenuBG",
           "persistentUuid": "8b27a464-5cb1-4490-af5d-08e9dea3a7b8",
           "width": 871,
-          "x": 228,
-          "y": 301,
+          "x": 260,
+          "y": -46,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2874,8 +2910,8 @@
           "name": "NewText",
           "persistentUuid": "9980950d-1331-4bb9-92da-b49b1b3fdcc2",
           "width": 0,
-          "x": 303,
-          "y": 380,
+          "x": 379,
+          "y": 22,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2890,8 +2926,8 @@
           "name": "Unnamed",
           "persistentUuid": "afc9f66b-a81c-49e8-bda1-1f3bb3e70b50",
           "width": 0,
-          "x": 269,
-          "y": 492,
+          "x": 399,
+          "y": 174,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -2906,8 +2942,8 @@
           "name": "GreenButtonWithStoneFrame",
           "persistentUuid": "52948df2-ba1c-401e-9753-50951536501c",
           "width": 0,
-          "x": 679,
-          "y": 499,
+          "x": 769,
+          "y": 158,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -2955,9 +2991,41 @@
           "name": "Platform1",
           "persistentUuid": "048eee28-c471-48d2-a1b4-7156d34f7be8",
           "width": 0,
-          "x": 1506,
-          "y": 640,
+          "x": 1467,
+          "y": 623,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite7",
+          "persistentUuid": "d24d2e9a-7505-4f6b-8f1c-1611d9550bf5",
+          "width": 0,
+          "x": 640,
+          "y": 360,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite7",
+          "persistentUuid": "cd4d3685-9b71-481f-a812-be5407f0d732",
+          "width": 0,
+          "x": 640,
+          "y": 360,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10442,6 +10510,257 @@
               "effects": []
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "sssss.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 40,
+                            "y": 128
+                          },
+                          {
+                            "x": 168,
+                            "y": 128
+                          },
+                          {
+                            "x": 168,
+                            "y": 256
+                          },
+                          {
+                            "x": 40,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprite-0004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 160
+                          },
+                          {
+                            "x": 240,
+                            "y": 160
+                          },
+                          {
+                            "x": 240,
+                            "y": 256
+                          },
+                          {
+                            "x": 0,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprite-0005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 120
+                          },
+                          {
+                            "x": 240,
+                            "y": 120
+                          },
+                          {
+                            "x": 240,
+                            "y": 256
+                          },
+                          {
+                            "x": 24,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\coin pile.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 2,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10514,7 +10833,22 @@
             "objectName": "NewText"
           },
           {
+            "objectName": "NewSprite4"
+          },
+          {
             "objectName": "GreenButtonWithStoneFrame"
+          },
+          {
+            "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "NewSprite5"
+          },
+          {
+            "objectName": "NewSprite6"
+          },
+          {
+            "objectName": "NewSprite7"
           }
         ]
       },
@@ -10719,6 +11053,30 @@
                 "GreenHero",
                 "50",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "NewSprite3"
               ]
             }
           ]
