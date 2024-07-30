@@ -2609,7 +2609,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.529035740215684,
+        "zoomFactor": 0.5117784035210176,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2757,8 +2757,8 @@
           "name": "GreenHero",
           "persistentUuid": "609f700d-4699-4b1b-840b-503185cef74f",
           "width": 284,
-          "x": 423,
-          "y": 350,
+          "x": 340,
+          "y": 383,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2825,8 +2825,8 @@
           "name": "egg",
           "persistentUuid": "b69e45cf-4dfe-4472-b145-e66a3ed6eaa2",
           "width": 275,
-          "x": 88,
-          "y": 298,
+          "x": 66,
+          "y": 295,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2876,8 +2876,8 @@
           "name": "MenuBG",
           "persistentUuid": "8b27a464-5cb1-4490-af5d-08e9dea3a7b8",
           "width": 871,
-          "x": 266,
-          "y": 332,
+          "x": 221,
+          "y": 282,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2982,33 +2982,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "997b630b-825c-460e-aac1-737057cb3a24",
-          "width": 0,
-          "x": 1307,
-          "y": 499,
-          "zOrder": 23,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 166,
+          "height": 194,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite4",
           "persistentUuid": "352fb761-6c17-45cb-8b79-67cb33a318da",
           "width": 184,
-          "x": 518,
-          "y": 491,
-          "zOrder": 24,
+          "x": 809,
+          "y": 463,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10971,18 +10955,7 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "ButtonStates::ButtonFSM::IsClicked"
-              },
-              "parameters": [
-                "NewSprite3",
-                "ButtonFSM",
-                ""
-              ]
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
