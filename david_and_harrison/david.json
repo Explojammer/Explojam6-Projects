@@ -2578,6 +2578,134 @@
         "name": "assets\\coin pile.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f1e231bf9ea89b842ac63e17cc41cab0dd3a5d88916ca3454d89872e85c239d7_Red Button_Hovered.png",
+          "name": "Red Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
+          "name": "Red Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
+          "name": "Red Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eb4edad2c3c752116fd28898f6bf0ae8dd0ab73b5cca111dbbd1e541c92dc393_Grey Button With Shadow_Hovered.png",
+          "name": "Grey Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7a8f60c5db6936e591235ae6ef3eca1c856c61adcc8d2a059e4e408804ebc477_Grey Button With Shadow_Idle.png",
+          "name": "Grey Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/907400b52ad729d17d819ce65fcedcc7819a07bbf18d106029ef4e7fbfb14d42_Grey Button With Shadow_Pressed.png",
+          "name": "Grey Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2587,7 +2715,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "coins",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -2609,7 +2744,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.529035740215684,
+        "zoomFactor": 0.7619362677197614,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2617,39 +2752,39 @@
           "name": "WallMenu",
           "objects": [
             {
-              "name": "MenuBG"
+              "name": "WallMenuBG"
             },
             {
-              "name": "NewText"
+              "name": "WallText"
             },
             {
-              "name": "Unnamed"
+              "name": "PayAreaButton"
             },
             {
-              "name": "GreenButtonWithStoneFrame"
+              "name": "leave_button"
+            }
+          ]
+        },
+        {
+          "name": "egg menu",
+          "objects": [
+            {
+              "name": "EggLeaveButton"
+            },
+            {
+              "name": "PayEggButton"
+            },
+            {
+              "name": "EggMenuBG2"
+            },
+            {
+              "name": "EggText"
             }
           ]
         }
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 18,
-          "customSize": true,
-          "depth": 1,
-          "height": 169,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Monster",
-          "persistentUuid": "27cf5738-3e10-4805-b110-46e0bbf4c9e5",
-          "width": 123,
-          "x": 813,
-          "y": 311,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -2676,7 +2811,7 @@
           "persistentUuid": "64ed09f2-39a5-4098-bc35-7e6936d9b0f0",
           "width": 0,
           "x": 820,
-          "y": 633,
+          "y": 648,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2692,7 +2827,7 @@
           "persistentUuid": "26598369-4b9a-40c2-ae42-b5318a1a8bdd",
           "width": 0,
           "x": 566,
-          "y": 643,
+          "y": 648,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2751,49 +2886,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 314,
+          "height": 189,
           "keepRatio": true,
           "layer": "",
           "name": "GreenHero",
           "persistentUuid": "609f700d-4699-4b1b-840b-503185cef74f",
-          "width": 284,
-          "x": 423,
-          "y": 350,
+          "width": 171,
+          "x": 385,
+          "y": 495,
           "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 231,
-          "keepRatio": true,
-          "layer": "",
-          "name": "RedHero",
-          "persistentUuid": "4e33cdbd-46c6-4efd-8dfb-61062dcfaed2",
-          "width": 145,
-          "x": 648,
-          "y": 424,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 144,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Fly",
-          "persistentUuid": "943e1539-bbb7-4bb1-8129-f2b9baae4b5b",
-          "width": 201,
-          "x": 536,
-          "y": 291,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2835,32 +2936,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 39,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "RedButtonWithStoneFrame",
-          "persistentUuid": "714706b7-fafe-4190-9a58-2fb7d45b1ae8",
-          "width": 160,
-          "x": 124,
-          "y": 568,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 362,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
+          "name": "Wall",
           "persistentUuid": "7d8c8c43-4881-4076-ba55-4ae92ee783a9",
           "width": 351,
-          "x": 977,
-          "y": 279,
+          "x": 916,
+          "y": 268,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2868,48 +2952,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 361,
-          "keepRatio": true,
-          "layer": "",
-          "name": "MenuBG",
-          "persistentUuid": "8b27a464-5cb1-4490-af5d-08e9dea3a7b8",
-          "width": 871,
-          "x": 266,
-          "y": 332,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "NewText",
-          "persistentUuid": "9980950d-1331-4bb9-92da-b49b1b3fdcc2",
-          "width": 0,
-          "x": 364,
-          "y": 382,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Unnamed",
+          "layer": "Menu Layer",
+          "name": "PayAreaButton",
           "persistentUuid": "afc9f66b-a81c-49e8-bda1-1f3bb3e70b50",
           "width": 0,
-          "x": 269,
-          "y": 492,
+          "x": 227,
+          "y": 351,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -2920,12 +2971,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "GreenButtonWithStoneFrame",
+          "layer": "Menu Layer",
+          "name": "leave_button",
           "persistentUuid": "52948df2-ba1c-401e-9753-50951536501c",
           "width": 0,
-          "x": 679,
-          "y": 499,
+          "x": 645,
+          "y": 361,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -2938,7 +2989,7 @@
           "height": 51,
           "keepRatio": true,
           "layer": "",
-          "name": "PurpleButtonWithStoneFrame",
+          "name": "UnlockButton",
           "persistentUuid": "5d79df5c-d202-42c8-a1dd-b9dbaf493459",
           "width": 204,
           "x": 1047,
@@ -2982,16 +3033,17 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 166,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite3",
-          "persistentUuid": "997b630b-825c-460e-aac1-737057cb3a24",
-          "width": 0,
-          "x": 1307,
-          "y": 499,
-          "zOrder": 23,
+          "name": "CoinPile2",
+          "persistentUuid": "352fb761-6c17-45cb-8b79-67cb33a318da",
+          "width": 184,
+          "x": 518,
+          "y": 491,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3000,15 +3052,163 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 166,
+          "height": 312,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "WallMenuBG",
+          "persistentUuid": "c83d2b97-8cdc-4d61-8035-93d893dc76ac",
+          "width": 880,
+          "x": 177,
+          "y": 204,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "WallText",
+          "persistentUuid": "be1bd3d5-9b32-47b6-b69d-617302074ecc",
+          "width": 0,
+          "x": 270,
+          "y": 261,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "PayEggButton",
+          "persistentUuid": "0a9667d3-902a-4b7d-90f2-a4e808d2e34a",
+          "width": 192,
+          "x": 283,
+          "y": 370,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 83,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "EggLeaveButton",
+          "persistentUuid": "fdb5f608-2354-4e13-ae63-fc476605f15f",
+          "width": 256,
+          "x": 704,
+          "y": 407,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "EggText",
+          "persistentUuid": "67f3ef3e-4168-46b2-9466-f62865bd2b5d",
+          "width": 0,
+          "x": 246,
+          "y": 238,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 377,
+          "keepRatio": true,
+          "layer": "Menu Layer",
+          "name": "EggMenuBG2",
+          "persistentUuid": "f77f0ba0-4363-4ba7-abe0-f78a22718cc8",
+          "width": 902,
+          "x": 173,
+          "y": 162,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite4",
-          "persistentUuid": "352fb761-6c17-45cb-8b79-67cb33a318da",
-          "width": 184,
-          "x": 518,
-          "y": 491,
-          "zOrder": 24,
+          "name": "HatchEggButton",
+          "persistentUuid": "c30bf3ad-47b7-4a06-9ffe-b0d7ff91c630",
+          "width": 0,
+          "x": 122,
+          "y": 555,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "Coin counter",
+          "name": "Coin",
+          "persistentUuid": "1901423a-45cd-4bff-b678-38279eaa5332",
+          "width": 91,
+          "x": 43,
+          "y": 35,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Coin counter",
+          "name": "CoinAmount",
+          "persistentUuid": "5dd09439-9a5d-4ca5-a669-15f6528decc1",
+          "width": 0,
+          "x": 152,
+          "y": 30,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "CoinPile1",
+          "persistentUuid": "c965eb13-aa28-48d8-94c6-937c56d41ef5",
+          "width": 0,
+          "x": 634,
+          "y": 406,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9895,126 +10095,6 @@
           ]
         },
         {
-          "areaMaxX": 64,
-          "areaMaxY": 64,
-          "areaMaxZ": 64,
-          "areaMinX": 0,
-          "areaMinY": 0,
-          "areaMinZ": 0,
-          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
-          "name": "RedButtonWithStoneFrame",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "hatch",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "hatch",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            }
-          },
-          "instances": [],
-          "layers": [
-            {
-              "ambientLightColorB": 200,
-              "ambientLightColorG": 200,
-              "ambientLightColorR": 200,
-              "camera3DFarPlaneDistance": 10000,
-              "camera3DFieldOfView": 45,
-              "camera3DNearPlaneDistance": 3,
-              "cameraType": "",
-              "followBaseLayerCamera": false,
-              "isLightingLayer": false,
-              "isLocked": false,
-              "name": "",
-              "renderingType": "",
-              "visibility": true,
-              "cameras": [
-                {
-                  "defaultSize": true,
-                  "defaultViewport": true,
-                  "height": 0,
-                  "viewportBottom": 1,
-                  "viewportLeft": 0,
-                  "viewportRight": 1,
-                  "viewportTop": 0,
-                  "width": 0
-                }
-              ],
-              "effects": []
-            }
-          ]
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "NewSprite",
@@ -10028,7 +10108,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "Wall",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10096,7 +10176,7 @@
         {
           "assetStoreId": "",
           "height": 32,
-          "name": "MenuBG",
+          "name": "WallMenuBG",
           "texture": "NewTiledSprite",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
@@ -10108,14 +10188,14 @@
           "assetStoreId": "",
           "bold": true,
           "italic": false,
-          "name": "NewText",
+          "name": "WallText",
           "smoothed": true,
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "give me 200$ to bye the area",
+          "string": "give me 200$ to buy the area",
           "font": "",
           "textAlignment": "left",
           "characterSize": 50,
@@ -10138,7 +10218,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "give me 200$ to bye the area",
+            "text": "give me 200$ to buy the area",
             "font": "",
             "textAlignment": "left",
             "characterSize": 50,
@@ -10153,7 +10233,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "a0b220a4d2b5cc644055848ff63b0f56c2685517bf870112832c9ab4b65aaa2f",
-          "name": "Unnamed",
+          "name": "PayAreaButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -10273,7 +10353,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "GreenButtonWithStoneFrame",
+          "name": "leave_button",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -10393,7 +10473,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
-          "name": "PurpleButtonWithStoneFrame",
+          "name": "UnlockButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -10508,7 +10588,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite3",
+          "name": "CoinPile1",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10615,7 +10695,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite4",
+          "name": "CoinPile2",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -10682,6 +10762,459 @@
               ]
             }
           ]
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreId": "0d3f4843e5ebb7af30fd80adf19a1c5a14164c1283f344991dc2aa14067a1262",
+          "name": "EggLeaveButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 10,
+            "BottomPadding": 32,
+            "TopPadding": 16,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Idle": {
+              "bottomMargin": 32,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 256
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "leave",
+              "font": "",
+              "textAlignment": "center",
+              "characterSize": 60,
+              "color": {
+                "b": 16,
+                "g": 38,
+                "r": 111
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "leave",
+                "font": "",
+                "textAlignment": "center",
+                "characterSize": 60,
+                "color": "111;38;16"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 106,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button_Pressed.png",
+              "tiled": true,
+              "topMargin": 32,
+              "width": 256
+            }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreId": "9cf9ca8be6e98fc23e76b6770d3f4d094dea09f30a49f38ef9a9d2e97c2460be",
+          "name": "PayEggButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 3,
+            "BottomPadding": 32,
+            "TopPadding": 32,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "pay me 200$ dollars",
+              "font": "CantoraOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "pay me 200$ dollars",
+                "font": "CantoraOne-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Grey Button With Shadow_Pressed.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "EggMenuBG2",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "EggText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "give me 200$ to buy the egg",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "give me 200$ to buy the egg",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+          "name": "HatchEggButton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 3,
+            "BottomPadding": 32,
+            "TopPadding": 32,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button With Shadow_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Idle": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button With Shadow_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Hatch",
+              "font": "CantoraOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Hatch",
+                "font": "CantoraOne-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 69,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Red Button With Shadow_Pressed.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 192
+            }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "CoinAmount",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 100,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10733,71 +11266,58 @@
             "objectName": "egg"
           },
           {
-            "objectName": "RedButtonWithStoneFrame"
-          },
-          {
-            "objectName": "PurpleButtonWithStoneFrame"
+            "objectName": "UnlockButton"
           },
           {
             "objectName": "NewSprite"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "Wall"
           },
           {
-            "objectName": "MenuBG"
+            "objectName": "WallMenuBG"
           },
           {
-            "objectName": "Unnamed"
+            "folderName": "EggMenu",
+            "children": [
+              {
+                "objectName": "EggText"
+              },
+              {
+                "objectName": "PayEggButton"
+              },
+              {
+                "objectName": "EggLeaveButton"
+              },
+              {
+                "objectName": "EggMenuBG2"
+              }
+            ]
           },
           {
-            "objectName": "NewText"
+            "objectName": "PayAreaButton"
           },
           {
-            "objectName": "GreenButtonWithStoneFrame"
+            "objectName": "WallText"
           },
           {
-            "objectName": "NewSprite3"
+            "objectName": "leave_button"
           },
           {
-            "objectName": "NewSprite4"
+            "objectName": "CoinPile1"
+          },
+          {
+            "objectName": "CoinPile2"
+          },
+          {
+            "objectName": "HatchEggButton"
+          },
+          {
+            "objectName": "CoinAmount"
           }
         ]
       },
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "RedButtonWithStoneFrame",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "egg"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "dog",
-                ""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -10841,6 +11361,14 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg menu"
+              ]
+            },
+            {
+              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -10861,7 +11389,32 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "PurpleButtonWithStoneFrame",
+                "HatchEggButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "egg menu",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "UnlockButton",
                 ""
               ]
             }
@@ -10886,7 +11439,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "GreenButtonWithStoneFrame",
+                "leave_button",
                 ""
               ]
             }
@@ -10910,7 +11463,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "Unnamed",
+                "PayAreaButton",
                 ""
               ]
             }
@@ -10921,7 +11474,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "NewSprite2",
+                "Wall",
                 ""
               ]
             },
@@ -10930,7 +11483,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "PurpleButtonWithStoneFrame"
+                "UnlockButton"
               ]
             },
             {
@@ -10977,7 +11530,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "NewSprite3",
+                "CoinPile1",
                 "ButtonFSM",
                 ""
               ]
@@ -10989,7 +11542,28 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NewSprite3"
+                "CoinPile1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "coins",
+                "+",
+                "200"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinAmount",
+                "Text",
+                "=",
+                "ToString(coins)"
               ]
             }
           ]
@@ -11002,7 +11576,7 @@
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
-                "NewSprite4",
+                "CoinPile2",
                 "ButtonFSM",
                 ""
               ]
@@ -11014,7 +11588,93 @@
                 "value": "Cache"
               },
               "parameters": [
-                "NewSprite4"
+                "CoinPile2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinAmount",
+                "Text",
+                "=",
+                "ToString(coins)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "coins",
+                "+",
+                "200"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "PayEggButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "dog",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg menu"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "EggLeaveButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg menu"
               ]
             }
           ]
@@ -11047,6 +11707,72 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Menu Layer",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Coin counter",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
