@@ -2849,7 +2849,7 @@
           "persistentUuid": "8b27a464-5cb1-4490-af5d-08e9dea3a7b8",
           "width": 871,
           "x": 228,
-          "y": 73,
+          "y": 301,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2864,8 +2864,8 @@
           "name": "NewText",
           "persistentUuid": "9980950d-1331-4bb9-92da-b49b1b3fdcc2",
           "width": 0,
-          "x": 296,
-          "y": 100,
+          "x": 303,
+          "y": 380,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2880,8 +2880,8 @@
           "name": "Unnamed",
           "persistentUuid": "afc9f66b-a81c-49e8-bda1-1f3bb3e70b50",
           "width": 0,
-          "x": 267,
-          "y": 224,
+          "x": 269,
+          "y": 492,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -2896,8 +2896,8 @@
           "name": "GreenButtonWithStoneFrame",
           "persistentUuid": "52948df2-ba1c-401e-9753-50951536501c",
           "width": 0,
-          "x": 684,
-          "y": 219,
+          "x": 679,
+          "y": 499,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -2916,6 +2916,38 @@
           "x": 1047,
           "y": 579,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "de8d2cc3-7bdb-43a6-9e31-166490ec2780",
+          "width": 0,
+          "x": 1257,
+          "y": 624,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform1",
+          "persistentUuid": "048eee28-c471-48d2-a1b4-7156d34f7be8",
+          "width": 0,
+          "x": 1506,
+          "y": 640,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9791,6 +9823,12 @@
           ]
         },
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
           "name": "RedButtonWithStoneFrame",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -9871,7 +9909,38 @@
               "topMargin": 0,
               "width": 348
             }
-          }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -10005,6 +10074,12 @@
           }
         },
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "assetStoreId": "a0b220a4d2b5cc644055848ff63b0f56c2685517bf870112832c9ab4b65aaa2f",
           "name": "Unnamed",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -10085,9 +10160,46 @@
               "topMargin": 0,
               "width": 348
             }
-          }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
         },
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
           "name": "GreenButtonWithStoneFrame",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -10168,9 +10280,46 @@
               "topMargin": 0,
               "width": 348
             }
-          }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
         },
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
           "name": "PurpleButtonWithStoneFrame",
           "type": "PanelSpriteButton::PanelSpriteButton",
@@ -10251,7 +10400,38 @@
               "topMargin": 0,
               "width": 348
             }
-          }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11833,6 +12013,12 @@
       ],
       "eventsBasedObjects": [
         {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
           "defaultName": "Button",
           "description": "A button that can be customized.",
           "fullName": "Button (panel sprite)",
@@ -13313,7 +13499,39 @@
                 "objectName": "Pressed"
               }
             ]
-          }
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": []
         }
       ]
     },
