@@ -2485,7 +2485,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4950840073748888,
+        "zoomFactor": 0.5290357402156839,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2568,8 +2568,8 @@
           "name": "Egg",
           "persistentUuid": "0552ff84-561e-4c00-ae2f-4305fba6dc2f",
           "width": 256,
-          "x": 8,
-          "y": 384,
+          "x": 10,
+          "y": 387,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -9885,6 +9885,20 @@
               "effects": []
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewVideo",
+          "type": "Video::VideoObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "opacity": 255,
+            "loop": false,
+            "volume": 100,
+            "videoResource": ""
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9949,6 +9963,9 @@
           },
           {
             "objectName": "unlock_new_area_botton"
+          },
+          {
+            "objectName": "NewVideo"
           }
         ]
       },
