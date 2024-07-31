@@ -2415,6 +2415,45 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
           "name": "Roboto-Regular.ttf"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b2c6ef85d2088a94a58d7c457ed225561a073aa3c9e6401a612bcdd98795ae91_Purple Button With Stone Frame_Hovered.png",
+          "name": "Purple Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd79fc534fc1d2859343599ea35a2c3f81700ffebdf7b8b798be440e59ad816_Purple Button With Stone Frame_Idle.png",
+          "name": "Purple Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
+          "name": "Purple Button With Stone Frame_Pressed.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2446,7 +2485,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210174,
+        "zoomFactor": 0.4950840073748888,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2456,14 +2495,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 99,
+          "height": 93,
           "keepRatio": true,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "0be121cf-f4ab-44b7-a223-9f83ee87da36",
-          "width": 1680,
-          "x": -162,
-          "y": 649,
+          "width": 1572,
+          "x": -173,
+          "y": 651,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2471,15 +2510,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 157,
           "keepRatio": true,
           "layer": "",
           "name": "GreenHero",
           "persistentUuid": "ccd6b96c-86fd-45e4-b692-2bb3da2caa1e",
-          "width": 0,
-          "x": 405,
-          "y": 568,
+          "width": 157,
+          "x": 408,
+          "y": 530,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2520,15 +2560,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 269,
           "keepRatio": true,
           "layer": "",
           "name": "Egg",
           "persistentUuid": "0552ff84-561e-4c00-ae2f-4305fba6dc2f",
-          "width": 0,
-          "x": 50,
-          "y": 396,
+          "width": 256,
+          "x": 8,
+          "y": 384,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2536,16 +2577,34 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 37,
+          "height": 78,
           "keepRatio": true,
           "layer": "",
           "name": "EggButton",
           "persistentUuid": "78f28f82-d23d-4d19-aff4-ec09cd264967",
-          "width": 0,
-          "x": 19,
-          "y": 640,
+          "width": 266,
+          "x": -4,
+          "y": 648,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 33,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "",
+          "name": "unlock_new_area_botton",
+          "persistentUuid": "c074a384-ca09-4b7d-a7ab-3fe2bde5d906",
+          "width": 241,
+          "x": 996,
+          "y": 598,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9706,6 +9765,126 @@
               "effects": []
             }
           ]
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreId": "3699f3a9dbcacb430dfb90834c239c60a0324b631635c6658396cd524c7adb0a",
+          "name": "unlock_new_area_botton",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Hovered.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            },
+            "Idle": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Idle.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Button",
+              "font": "Roboto-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Button",
+                "font": "Roboto-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 40,
+                "color": "255;255;255"
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 0,
+              "height": 102,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Purple Button With Stone Frame_Pressed.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 348
+            }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -9767,6 +9946,9 @@
           },
           {
             "objectName": "EggButton"
+          },
+          {
+            "objectName": "unlock_new_area_botton"
           }
         ]
       },
@@ -9938,6 +10120,49 @@
               },
               "parameters": [
                 "Dog",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "EggButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "unlock_new_area_botton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Wall",
+                "Effect"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "unlock_new_area_botton",
                 ""
               ]
             }
