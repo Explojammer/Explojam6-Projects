@@ -2454,6 +2454,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
           "name": "Purple Button With Stone Frame_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GreenHero_Punch_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\GreenHero_Punch_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sprite-0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sprite-0001.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2485,7 +2503,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
+<<<<<<< HEAD
         "zoomFactor": 0.5290357402156839,
+=======
+        "zoomFactor": 0.4789341884535246,
+>>>>>>> 9734bb74e7ae20a3931cb818c67853a9d551810f
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2602,9 +2624,25 @@
           "name": "unlock_new_area_botton",
           "persistentUuid": "c074a384-ca09-4b7d-a7ab-3fe2bde5d906",
           "width": 241,
-          "x": 996,
-          "y": 598,
+          "x": 1003,
+          "y": 596,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "5691ea9c-67b0-416a-8ba9-e71815975a9f",
+          "width": 0,
+          "x": 527,
+          "y": 402,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9887,6 +9925,7 @@
           ]
         },
         {
+<<<<<<< HEAD
           "assetStoreId": "",
           "name": "NewVideo",
           "type": "Video::VideoObject",
@@ -9899,6 +9938,66 @@
             "volume": 100,
             "videoResource": ""
           }
+=======
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Sprite-0001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 160
+                          },
+                          {
+                            "x": 216,
+                            "y": 160
+                          },
+                          {
+                            "x": 216,
+                            "y": 256
+                          },
+                          {
+                            "x": 8,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+>>>>>>> 9734bb74e7ae20a3931cb818c67853a9d551810f
         }
       ],
       "objectsFolderStructure": {
@@ -9965,7 +10064,11 @@
             "objectName": "unlock_new_area_botton"
           },
           {
+<<<<<<< HEAD
             "objectName": "NewVideo"
+=======
+            "objectName": "NewSprite"
+>>>>>>> 9734bb74e7ae20a3931cb818c67853a9d551810f
           }
         ]
       },
@@ -10180,6 +10283,50 @@
               },
               "parameters": [
                 "unlock_new_area_botton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "NewSprite"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NewSprite",
                 ""
               ]
             }
