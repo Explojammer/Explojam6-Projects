@@ -10217,11 +10217,11 @@
               "width": 348
             },
             "Label": {
-              "bold": false,
-              "italic": false,
+              "bold": true,
+              "italic": true,
               "smoothed": true,
               "underlined": false,
-              "string": "Button",
+              "string": "pay me 200$",
               "font": "Roboto-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -10231,10 +10231,10 @@
                 "r": 255
               },
               "content": {
-                "bold": false,
+                "bold": true,
                 "isOutlineEnabled": false,
                 "isShadowEnabled": false,
-                "italic": false,
+                "italic": true,
                 "outlineColor": "255;255;255",
                 "outlineThickness": 2,
                 "shadowAngle": 90,
@@ -10244,7 +10244,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Button",
+                "text": "pay me 200$",
                 "font": "Roboto-Regular.ttf",
                 "textAlignment": "center",
                 "characterSize": 40,
@@ -10581,7 +10581,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Button",
+              "string": "leave",
               "font": "Roboto-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -10604,7 +10604,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Button",
+                "text": "leave",
                 "font": "Roboto-Regular.ttf",
                 "textAlignment": "center",
                 "characterSize": 40,
@@ -10951,6 +10951,24 @@
                 "wall_menu_text",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "OrangeButtonWithStoneFrame",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GreenButtonWithStoneFrame",
+                ""
+              ]
             }
           ]
         },
@@ -10990,6 +11008,103 @@
               },
               "parameters": [
                 "wall_menu_text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GreenButtonWithStoneFrame"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "OrangeButtonWithStoneFrame"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "OrangeButtonWithStoneFrame",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Wall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "unlock_new_area_botton"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GreenButtonWithStoneFrame",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Background"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "wall_menu_text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "GreenButtonWithStoneFrame"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "OrangeButtonWithStoneFrame"
               ]
             }
           ]
