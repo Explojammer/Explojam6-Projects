@@ -2803,9 +2803,41 @@
           "name": "wall_menu_text",
           "persistentUuid": "df6cd6f2-eeb2-40e7-a818-6969e41296bd",
           "width": 461,
-          "x": 250,
-          "y": 403,
+          "x": 254,
+          "y": 386,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GreenButtonWithStoneFrame",
+          "persistentUuid": "78ea297f-0eff-451c-9006-3e836f8e6885",
+          "width": 0,
+          "x": 176,
+          "y": 564,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "OrangeButtonWithStoneFrame",
+          "persistentUuid": "c0203330-cc05-44e8-bc50-edf8d5dff754",
+          "width": 0,
+          "x": 537,
+          "y": 566,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10904,19 +10936,19 @@
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "Montre"
               },
               "parameters": [
-                "Wall",
-                "Effect"
+                "Background",
+                ""
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "Montre"
               },
               "parameters": [
-                "unlock_new_area_botton",
+                "wall_menu_text",
                 ""
               ]
             }
@@ -10927,11 +10959,10 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "DepartScene"
               },
               "parameters": [
-                "unlock_new_area_botton",
-                ""
+                "unlock_new_area_botton"
               ]
             }
           ],
@@ -10947,14 +10978,26 @@
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "Background",
-                ""
+                "Background"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "wall_menu_text"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
