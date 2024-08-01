@@ -10921,6 +10921,40 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "unlock_new_area_botton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetColor"
+              },
+              "parameters": [
+                "Background",
+                "\"80;227;194\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Background",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
