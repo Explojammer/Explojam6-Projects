@@ -2697,7 +2697,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000002,
+        "zoomFactor": 0.5653158055126308,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2713,7 +2713,7 @@
           "name": "Platform1",
           "persistentUuid": "0be121cf-f4ab-44b7-a223-9f83ee87da36",
           "width": 1572,
-          "x": -173,
+          "x": -88,
           "y": 651,
           "zOrder": 1,
           "numberProperties": [],
@@ -10806,6 +10806,17 @@
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "objectsFolderStructure": {
@@ -10894,6 +10905,9 @@
           },
           {
             "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "NewSprite3"
           }
         ]
       },
