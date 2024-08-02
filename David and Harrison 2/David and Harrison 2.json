@@ -2666,6 +2666,15 @@
         "name": "assets\\Sprite-0004.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Green Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2697,10 +2706,45 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000002,
+        "zoomFactor": 0.5653158055126312,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "wall menu group",
+          "objects": [
+            {
+              "name": "Background"
+            },
+            {
+              "name": "wall_menu_text"
+            },
+            {
+              "name": "OrangeButtonWithStoneFrame"
+            },
+            {
+              "name": "wall_menu_botton"
+            }
+          ]
+        },
+        {
+          "name": "egg menu group",
+          "objects": [
+            {
+              "name": "BlueButton"
+            },
+            {
+              "name": "EggButton"
+            },
+            {
+              "name": "egg_menu_text2"
+            },
+            {
+              "name": "NewSprite3"
+            }
+          ]
+        }
+      ],
       "variables": [],
       "instances": [
         {
@@ -2790,23 +2834,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 37,
-          "height": 78,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EggButton",
-          "persistentUuid": "78f28f82-d23d-4d19-aff4-ec09cd264967",
-          "width": 266,
-          "x": -4,
-          "y": 648,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 33,
           "height": 71,
           "keepRatio": true,
@@ -2814,7 +2841,7 @@
           "name": "unlock_new_area_botton",
           "persistentUuid": "c074a384-ca09-4b7d-a7ab-3fe2bde5d906",
           "width": 241,
-          "x": 996,
+          "x": 1034,
           "y": 598,
           "zOrder": 10,
           "numberProperties": [],
@@ -2831,8 +2858,8 @@
           "name": "Background",
           "persistentUuid": "18dcbe7d-c9ae-4eea-8f90-95339b4f1448",
           "width": 797,
-          "x": 179,
-          "y": 143,
+          "x": 227,
+          "y": 11,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -2848,8 +2875,8 @@
           "name": "wall_menu_text",
           "persistentUuid": "df6cd6f2-eeb2-40e7-a818-6969e41296bd",
           "width": 461,
-          "x": 273,
-          "y": 164,
+          "x": 266,
+          "y": 27,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -2861,11 +2888,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "UI",
-          "name": "GreenButtonWithStoneFrame",
+          "name": "wall_menu_botton",
           "persistentUuid": "78ea297f-0eff-451c-9006-3e836f8e6885",
           "width": 0,
-          "x": 236,
-          "y": 333,
+          "x": 294,
+          "y": 196,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2880,9 +2907,60 @@
           "name": "OrangeButtonWithStoneFrame",
           "persistentUuid": "c0203330-cc05-44e8-bc50-edf8d5dff754",
           "width": 0,
-          "x": 596,
-          "y": 339,
+          "x": 649,
+          "y": 195,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 170,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewSprite",
+          "persistentUuid": "88f3e3c7-a5c3-4268-863e-5660e1cc8569",
+          "width": 256,
+          "x": 656,
+          "y": 476,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 337,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "NewSprite3",
+          "persistentUuid": "84f8fab5-b2b4-456f-9127-3868cca8d6eb",
+          "width": 808,
+          "x": 217,
+          "y": -14,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 136,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "egg_menu_text2",
+          "persistentUuid": "2cffaa67-390f-4cb5-af11-6bebf9b08bf8",
+          "width": 320,
+          "x": 339,
+          "y": 16,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2892,13 +2970,47 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "88f3e3c7-a5c3-4268-863e-5660e1cc8569",
+          "layer": "UI",
+          "name": "BlueButton",
+          "persistentUuid": "429d0045-3878-4dfe-a373-84491a790dad",
           "width": 0,
-          "x": 632,
-          "y": 394,
-          "zOrder": 0,
+          "x": 633,
+          "y": 199,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "GreenButtonWithShadow",
+          "persistentUuid": "a0145a11-9780-4676-bd78-d06e81d897c9",
+          "width": 192,
+          "x": 348,
+          "y": 208,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 48,
+          "height": 85,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "EggButton",
+          "persistentUuid": "4e193fd3-22c4-41b8-b64f-57cc8d5f4986",
+          "width": 334,
+          "x": -36,
+          "y": 660,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10402,7 +10514,7 @@
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "BUTTON",
+              "string": "pay me 200$ ",
               "font": "CantoraOne-Regular.ttf",
               "textAlignment": "center",
               "characterSize": 40,
@@ -10425,7 +10537,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "BUTTON",
+                "text": "pay me 200$ ",
                 "font": "CantoraOne-Regular.ttf",
                 "textAlignment": "center",
                 "characterSize": 40,
@@ -10518,11 +10630,11 @@
               "width": 256
             },
             "Label": {
-              "bold": false,
+              "bold": true,
               "italic": false,
               "smoothed": true,
               "underlined": false,
-              "string": "Button",
+              "string": "leave",
               "font": "",
               "textAlignment": "center",
               "characterSize": 60,
@@ -10532,7 +10644,7 @@
                 "r": 28
               },
               "content": {
-                "bold": false,
+                "bold": true,
                 "isOutlineEnabled": false,
                 "isShadowEnabled": false,
                 "italic": false,
@@ -10545,7 +10657,7 @@
                 "shadowOpacity": 127,
                 "smoothed": true,
                 "underlined": false,
-                "text": "Button",
+                "text": "leave",
                 "font": "",
                 "textAlignment": "center",
                 "characterSize": 60,
@@ -10603,7 +10715,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "GreenButtonWithStoneFrame",
+          "name": "wall_menu_botton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -10799,13 +10911,114 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "egg_menu_text",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
           "behaviors": [],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Green Button With Shadow_Pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 3
+                          },
+                          {
+                            "x": 192,
+                            "y": 3
+                          },
+                          {
+                            "x": 192,
+                            "y": 69
+                          },
+                          {
+                            "x": 0,
+                            "y": 69
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "egg_menu_text2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "pay me 200$ to buy the egg",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "pay me 200$ to buy the egg",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 50,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -10887,13 +11100,19 @@
             "objectName": "BlueButton"
           },
           {
-            "objectName": "GreenButtonWithStoneFrame"
+            "objectName": "wall_menu_botton"
           },
           {
             "objectName": "NewSprite"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "egg_menu_text"
+          },
+          {
+            "objectName": "egg_menu_text2"
+          },
+          {
+            "objectName": "NewSprite3"
           }
         ]
       },
@@ -11053,79 +11272,10 @@
           "actions": [
             {
               "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Egg"
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
-                "Dog",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "EggButton",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "unlock_new_area_botton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Background",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "wall_menu_text",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "OrangeButtonWithStoneFrame",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "GreenButtonWithStoneFrame",
+                "egg menu group",
                 ""
               ]
             }
@@ -11158,7 +11308,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Background"
+                "egg menu group"
               ]
             },
             {
@@ -11166,23 +11316,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "wall_menu_text"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "GreenButtonWithStoneFrame"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OrangeButtonWithStoneFrame"
+                "wall menu group"
               ]
             }
           ]
@@ -11225,6 +11359,15 @@
               "parameters": [
                 "unlock_new_area_botton"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "wall menu group",
+                ""
+              ]
             }
           ]
         },
@@ -11236,7 +11379,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "GreenButtonWithStoneFrame",
+                "wall_menu_botton",
                 ""
               ]
             }
@@ -11263,7 +11406,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "GreenButtonWithStoneFrame"
+                "wall_menu_botton"
               ]
             },
             {
@@ -11297,6 +11440,126 @@
               },
               "parameters": [
                 "NewSprite"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BlueButton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg menu group"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "wall_menu_botton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "egg menu group",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "GreenButtonWithShadow",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "egg menu group"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Egg"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Dog",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "unlock_new_area_botton",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "wall menu group",
+                ""
               ]
             }
           ]
