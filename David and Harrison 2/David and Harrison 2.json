@@ -2706,7 +2706,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126312,
+        "zoomFactor": 0.4057518905943831,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2774,8 +2774,8 @@
           "name": "GreenHero",
           "persistentUuid": "ccd6b96c-86fd-45e4-b692-2bb3da2caa1e",
           "width": 157,
-          "x": 408,
-          "y": 530,
+          "x": 290,
+          "y": 472,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2807,8 +2807,8 @@
           "name": "Dog",
           "persistentUuid": "252b4587-6aa0-423d-84b4-1662f8566b10",
           "width": 0,
-          "x": 46,
-          "y": 388,
+          "x": -17,
+          "y": 198,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2824,8 +2824,8 @@
           "name": "Egg",
           "persistentUuid": "0552ff84-561e-4c00-ae2f-4305fba6dc2f",
           "width": 256,
-          "x": 10,
-          "y": 387,
+          "x": -17,
+          "y": 191,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2891,8 +2891,8 @@
           "name": "wall_menu_botton",
           "persistentUuid": "78ea297f-0eff-451c-9006-3e836f8e6885",
           "width": 0,
-          "x": 294,
-          "y": 196,
+          "x": 268,
+          "y": 204,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -2941,8 +2941,8 @@
           "name": "NewSprite3",
           "persistentUuid": "84f8fab5-b2b4-456f-9127-3868cca8d6eb",
           "width": 808,
-          "x": 217,
-          "y": -14,
+          "x": 204,
+          "y": 310,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2958,8 +2958,8 @@
           "name": "egg_menu_text2",
           "persistentUuid": "2cffaa67-390f-4cb5-af11-6bebf9b08bf8",
           "width": 320,
-          "x": 339,
-          "y": 16,
+          "x": 359,
+          "y": 316,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2974,8 +2974,8 @@
           "name": "BlueButton",
           "persistentUuid": "429d0045-3878-4dfe-a373-84491a790dad",
           "width": 0,
-          "x": 633,
-          "y": 199,
+          "x": 655,
+          "y": 487,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -2991,8 +2991,8 @@
           "name": "GreenButtonWithShadow",
           "persistentUuid": "a0145a11-9780-4676-bd78-d06e81d897c9",
           "width": 192,
-          "x": 348,
-          "y": 208,
+          "x": 314,
+          "y": 507,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -3008,8 +3008,8 @@
           "name": "EggButton",
           "persistentUuid": "4e193fd3-22c4-41b8-b64f-57cc8d5f4986",
           "width": 334,
-          "x": -36,
-          "y": 660,
+          "x": -51,
+          "y": 486,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -11376,54 +11376,6 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "wall_menu_botton",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Background"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "wall_menu_text"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "wall_menu_botton"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "OrangeButtonWithStoneFrame"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -11484,11 +11436,10 @@
           "actions": [
             {
               "type": {
-                "value": "Montre"
+                "value": "Cache"
               },
               "parameters": [
-                "egg menu group",
-                ""
+                "wall menu group"
               ]
             }
           ]
@@ -11533,11 +11484,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
