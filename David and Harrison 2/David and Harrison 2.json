@@ -2684,7 +2684,14 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "coins",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -2706,7 +2713,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943831,
+        "zoomFactor": 0.20902556228335278,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2734,13 +2741,13 @@
               "name": "BlueButton"
             },
             {
-              "name": "EggButton"
-            },
-            {
               "name": "egg_menu_text2"
             },
             {
               "name": "NewSprite3"
+            },
+            {
+              "name": "EggPayButton"
             }
           ]
         }
@@ -2751,13 +2758,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 93,
+          "height": 111,
           "keepRatio": true,
           "layer": "",
           "name": "Platform1",
           "persistentUuid": "0be121cf-f4ab-44b7-a223-9f83ee87da36",
-          "width": 1572,
-          "x": -173,
+          "width": 2248,
+          "x": -551,
           "y": 651,
           "zOrder": 1,
           "numberProperties": [],
@@ -2807,8 +2814,8 @@
           "name": "Dog",
           "persistentUuid": "252b4587-6aa0-423d-84b4-1662f8566b10",
           "width": 0,
-          "x": -17,
-          "y": 198,
+          "x": -31,
+          "y": 295,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -2818,14 +2825,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 269,
+          "height": 281,
           "keepRatio": true,
           "layer": "",
           "name": "Egg",
           "persistentUuid": "0552ff84-561e-4c00-ae2f-4305fba6dc2f",
           "width": 256,
-          "x": -17,
-          "y": 191,
+          "x": -25,
+          "y": 289,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -2942,7 +2949,7 @@
           "persistentUuid": "84f8fab5-b2b4-456f-9127-3868cca8d6eb",
           "width": 808,
           "x": 206,
-          "y": 310,
+          "y": 304,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -2952,14 +2959,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 136,
+          "height": 93,
           "keepRatio": true,
           "layer": "UI",
           "name": "egg_menu_text2",
           "persistentUuid": "2cffaa67-390f-4cb5-af11-6bebf9b08bf8",
-          "width": 320,
-          "x": 359,
-          "y": 316,
+          "width": 663,
+          "x": 274,
+          "y": 362,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -2988,11 +2995,11 @@
           "height": 107,
           "keepRatio": true,
           "layer": "UI",
-          "name": "GreenButtonWithShadow",
+          "name": "EggPayButton",
           "persistentUuid": "a0145a11-9780-4676-bd78-d06e81d897c9",
-          "width": 192,
-          "x": 314,
-          "y": 507,
+          "width": 265,
+          "x": 318,
+          "y": 483,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -3004,13 +3011,80 @@
           "depth": 48,
           "height": 85,
           "keepRatio": true,
-          "layer": "UI",
-          "name": "EggButton",
+          "layer": "",
+          "name": "HatchButton",
           "persistentUuid": "4e193fd3-22c4-41b8-b64f-57cc8d5f4986",
           "width": 334,
-          "x": -51,
-          "y": 486,
+          "x": -63,
+          "y": 561,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Coin",
+          "persistentUuid": "2f37aa0b-0cba-4436-a1d5-554da29d92b4",
+          "width": 102,
+          "x": 17,
+          "y": 12,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "CoinAmt",
+          "persistentUuid": "98f5b92b-2ddf-4cc8-a185-e7cb7ec77707",
+          "width": 0,
+          "x": 148,
+          "y": 35,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "keepRatio": true,
+          "layer": "",
+          "name": "victory",
+          "persistentUuid": "f2bcfaaf-81f2-458a-a6f4-ec65d1ce0735",
+          "width": 728,
+          "x": 1468,
+          "y": 286,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 123,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform2",
+          "persistentUuid": "fd1d817b-e0ac-4a68-adb3-038e33bf3041",
+          "width": 1168,
+          "x": 1486,
+          "y": 640,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10000,7 +10074,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -10060,7 +10142,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "EggButton",
+          "name": "HatchButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -10475,7 +10557,7 @@
           "areaMinY": 0,
           "areaMinZ": 0,
           "assetStoreId": "569b45d3c7c34f7706563239938d04ca599016ff9857ee38c945c72330d4339e",
-          "name": "GreenButtonWithShadow",
+          "name": "EggPayButton",
           "type": "PanelSpriteButton::PanelSpriteButton",
           "variables": [],
           "effects": [],
@@ -11019,6 +11101,88 @@
             "characterSize": 50,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": true,
+          "name": "CoinAmt",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": true,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 80,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "victory",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "victory you win",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "victory you win",
+            "font": "",
+            "textAlignment": "left",
+            "characterSize": 100,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11052,6 +11216,9 @@
             "objectName": "Coin"
           },
           {
+            "objectName": "CoinAmt"
+          },
+          {
             "objectName": "Checkpoint"
           },
           {
@@ -11079,7 +11246,7 @@
             "objectName": "Wall"
           },
           {
-            "objectName": "EggButton"
+            "objectName": "HatchButton"
           },
           {
             "objectName": "unlock_new_area_botton"
@@ -11094,7 +11261,7 @@
             "objectName": "OrangeButtonWithStoneFrame"
           },
           {
-            "objectName": "GreenButtonWithShadow"
+            "objectName": "EggPayButton"
           },
           {
             "objectName": "BlueButton"
@@ -11113,6 +11280,9 @@
           },
           {
             "objectName": "NewSprite3"
+          },
+          {
+            "objectName": "victory"
           }
         ]
       },
@@ -11264,7 +11434,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "EggButton",
+                "HatchButton",
                 ""
               ]
             }
@@ -11317,6 +11487,14 @@
               },
               "parameters": [
                 "wall menu group"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dog"
               ]
             }
           ]
@@ -11393,6 +11571,27 @@
               "parameters": [
                 "NewSprite"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "coins",
+                "=",
+                "400"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "CoinAmt",
+                "Text",
+                "=",
+                "ToString(coins)"
+              ]
             }
           ]
         },
@@ -11452,7 +11651,7 @@
                 "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
               },
               "parameters": [
-                "GreenButtonWithShadow",
+                "EggPayButton",
                 ""
               ]
             }
@@ -11468,10 +11667,11 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Delete"
               },
               "parameters": [
-                "Egg"
+                "Egg",
+                "Effect"
               ]
             },
             {
@@ -11481,6 +11681,14 @@
               "parameters": [
                 "Dog",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "HatchButton"
               ]
             }
           ]
@@ -11506,6 +11714,32 @@
               "parameters": [
                 "wall menu group",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Dog"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceVers"
+              },
+              "parameters": [
+                "Dog",
+                "GreenHero",
+                "25",
+                "1"
               ]
             }
           ]
